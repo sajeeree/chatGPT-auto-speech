@@ -191,7 +191,7 @@ let currentIndex = 0;
 
 // Listen for the "load" event on the window object
 window.addEventListener("load", async (_event: Event) => {
-  await findResponseTextToSpeak();
+  //await findResponseTextToSpeak();
 });
 
 // find and get response text to speak
@@ -231,7 +231,7 @@ async function findResponseTextToSpeak() {
 
   // wait 1000 milsecs to run again
   await sleep(1000);
-  await findResponseTextToSpeak();
+  //await findResponseTextToSpeak();
 }
 
 async function watchParagraphTextsToContinueSpeak(
