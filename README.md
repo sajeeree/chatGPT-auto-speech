@@ -43,3 +43,4 @@ example: https://github.com/RetricSu/chatGPT-auto-speech/actions/runs/3657606515
 - done!
 
 open https://chat.openai.com/chat to enjoy your speaking AI!
+Try to remove text to speechß
